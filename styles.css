@@ -39,50 +39,26 @@
             font-weight: bold;
         }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
+        /* Media queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 10px; /* Reduced padding for smaller screens */
+            }
 
-    nav ul li {
-        margin-right: 10px;
-    }
+            nav ul li {
+                margin-right: 10px; /* Reduced margin for navigation list items */
+            }
 
-    .toggle {
-        right: 10px;
-        top: 10px;
-    }
+            .toggle {
+                right: 10px; /* Adjusted right position for toggle button */
+                top: 10px; /* Adjusted top position for toggle button */
+            }
 
-    .slideshow-container {
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px; /* Reduced padding for smaller screens */
-    }
+            .slideshow-container {
+                max-width: 100%; /* Ensuring slideshow container fits the full width */
+            }
+        }
 
-    nav ul li {
-        margin-right: 10px; /* Reduced margin for navigation list items */
-    }
-
-    .toggle {
-        right: 10px; /* Adjusted right position for toggle button */
-        top: 10px; /* Adjusted top position for toggle button */
-    }
-
-    .slideshow-container {
-        max-width: 100%; /* Ensuring slideshow container fits the full width */
-    }
-}
-@media screen and (max-width: 768px) {
-    /* Other styles... */
-
-    .slideshow-container {
-        max-width: 100%; /* Setting maximum width to 100% for responsiveness */
-    }
-}
         * {box-sizing: border-box;}
             body {font-family: Verdana, sans-serif;}
             .mySlides {display: none;}
@@ -210,136 +186,150 @@
             translate: 0 0%;
         }
     
-    span:nth-of-type(2) {
-      translate: 0 -150%;
-    }
-  }
+        span:nth-of-type(2) {
+        translate: 0 -150%;
+        }
+        }
   
-  &:has(input:checked)::before {
-    translate: 100% 0;
-    background-color: #444;
-  }
-}
+        &:has(input:checked)::before {
+            translate: 100% 0;
+            background-color: #444;
+        }
+        }
 
-.container {
-  text-align: center;
-}
+        .container {
+        text-align: center;
+        }
 
-#services {
-  margin-top: 50px;
-}
+        #services {
+        margin-top: 50px;
+        }
 
-.services {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
+        .services {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        }
 
-.service {
-  width: 350px;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-}
+        .service {
+        width: 350px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        }
 
-.service:hover {
-  transform: translateY(-5px);
-}
+        .service:hover {
+        transform: translateY(-5px);
+        }
 
-.dark-mode .service {
-  background-color: #333;
-  border: 1px solid #444;
-  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
-}
+        .dark-mode .service {
+        background-color: #333;
+        border: 1px solid #444;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+        }
 
-/* Dark Mode Content Styles */
-.dark-mode .service h3,
-.dark-mode .service p {
-  color: #121313;
-  background-color: transparent; /* Set background color to transparent */
-}
+        /* Dark Mode Content Styles */
+        .dark-mode .service h3,
+        .dark-mode .service p {
+        color: #121313;
+        background-color: transparent; /* Set background color to transparent */
+        }
 
-/* Contact Us section */
-#contact {
-    padding: 50px;
-}
+        /* Contact Us section */
+        #contact {
+            padding: 50px;
+        }
 
-#contact h2 {
+        #contact h2 {
 
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
 
-#contact p {
-   
-    font-size: 16px;
-    margin-bottom: 10px;
-}
+        #contact p {
+        
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
 
-#contact p:last-child {
-    margin-bottom: 0;
-}
+        #contact p:last-child {
+            margin-bottom: 0;
+        }
 
-/* About Us section */
-#about {
-   
-    padding: 50px;
-}
+        /* About Us section */
+        #about {
+        
+            padding: 50px;
+        }
 
-#about h2 {
-    
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+        #about h2 {
+            
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
 
-#about p {
-   
-    font-size: 16px;
-    margin-bottom: 10px;
-}
+        #about p {
+        
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
 
-#about p:last-child {
-    margin-bottom: 0;
-}
+        #about p:last-child {
+            margin-bottom: 0;
+        }
 
-.dark-mode #contact h2,
-.dark-mode #contact p,
-.dark-mode #about h2,
-.dark-mode #about p {
-  color: #121313;
-  background-color: transparent; /* Set background color to transparent */
-}
+        .dark-mode #contact h2,
+        .dark-mode #contact p,
+        .dark-mode #about h2,
+        .dark-mode #about p {
+        color: #121313;
+        background-color: transparent; /* Set background color to transparent */
+        }
 
-.call-now {
-    position: absolute;
-    top: 20px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
 
-.call-now-text {
-    display: inline-block;
-     /* Adjust as needed */
-    margin: 0;
-    padding: 0;
-}
+        .click-to-call {
+            position: absolute;
+            top: 20px; /* Adjust as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        
+          }
+          
+          .button {
+            display: inline-block;
+            padding: 3px 5px;
+            background-color: #d3d018;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          }
+          
+          .button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+          }
+          
+          .icon {
+            margin-right: 10px;
+          }
+          
+          .text {
+            vertical-align: middle;
+          }
 
-.phone-number {
-    color: #FFFF99;
-}
+        /* Use like: */
 
-header {
-    position: relative; /* Ensure the call now div is positioned relative to the header */
-}
-
-/* Use like: */
-
-[data-mode="dark"] {
-  body {
-    background: #444;
-    color: #eee;
-  }
+        [data-mode="dark"] {
+        body {
+            background: #444;
+            color: #eee;
+        }
