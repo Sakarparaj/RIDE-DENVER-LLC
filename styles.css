@@ -39,7 +39,6 @@
         @media screen and (max-width: 768px) {
             header {
                 padding: 10px; /* Reduced padding for smaller screens */
-                font-size: 20px;
             }
 
             nav ul li {
