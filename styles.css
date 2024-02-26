@@ -233,6 +233,7 @@
                 transform: none; /* Remove transform for small devices */
                 text-align: center; /* Center align for small devices */
                 margin-top: 20px; /* Add margin top for spacing */
+                margin-bottom: 20px;
             }
         
             .button {
