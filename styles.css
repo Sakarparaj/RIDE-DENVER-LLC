@@ -225,16 +225,17 @@
 
         /* Media query for responsiveness */
         @media screen and (max-width: 768px) {
+            .click-to-call {
+                position: static; /* Change position to static for small devices */
+                transform: none; /* Remove transform for small devices */
+                text-align: center; /* Center align for small devices */
+                margin-top: 20px; /* Add margin top for spacing */
+            }
+        
             .button {
+                display: inline-block;
                 padding: 8px 16px; /* Adjust padding for smaller screens */
                 font-size: 14px; /* Adjust font size for smaller screens */
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            .button {
-                padding: 6px 12px; /* Further adjust padding for even smaller screens */
-                font-size: 12px; /* Further adjust font size for even smaller screens */
             }
         }
 
