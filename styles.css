@@ -224,6 +224,8 @@
         .icon {
             margin-right: 10px;
             vertical-align: middle;
+            text-color:red; 
+            font-weight:bold;
         }
 
         /* Media query for responsiveness */
