@@ -19,4 +19,8 @@
       setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
   
+    document.getElementById("clickToCallButton").addEventListener("click", function() {
+      // Perform action when button is clicked, e.g., initiate a phone call
+      console.log("Initiating phone call...");
+    });
     
