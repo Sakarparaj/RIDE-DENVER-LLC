@@ -1,1 +1,1 @@
-Simple website:🌐https://ridedenver.com/🌐
+Simple website:🌐https://ridedenver.com/ 🌐
