@@ -4,170 +4,297 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>RIDE DENVER LLC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/aaple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+   <link rel="manifest" href="/site.webmanifest">
+    <title>Ride Denver</title>
 </head>
 <body>
-    <header>
-        <h1>RIDE DENVER LLC</h1>
-        <div class="click-to-call">
-            <a href="tel:+13033457755">
-              <div class="button">
-             <span id="icon" style="border: 2px solid #fff; padding: 5px;">📞 <b>+1 (303) 345-7755</b></span>
-              </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+        <a href="/">
+            <img src="./rideDenver.png" alt="Ride Denver" class="logo">
+        </a>  
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+             <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="tel:+1 (303) 345-7755" class="call-button">
+                <button class="button-59" role="button">Call Us</button>
             </a>
-          </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="slideshow-container">
-
+        </ul>
+    </nav>
+    
+    <div id="home" class="slideshow-container">
         <div class="mySlides fade">
-          <div class="numbertext">1 / 8</div>
-          <img src="1.jpg" alt="" style="width:100%">
-        </div>
-        
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 8</div>
-          <img src="2.jpg" alt="" style="width:100%">
+            <div class="numbertext">1 / 8</div>
+            <img src="./images/1.jpg" alt=""  style="width:100%">
         </div>
         
         <div class="mySlides fade">
-          <div class="numbertext">3 / 8</div>
-          <img src="3.jpg" alt="" style="width:100%">
+            <div class="numbertext">2 / 8</div>
+            <img src="./images/2.jpg" alt=""  style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <img src="./images/3.jpg" alt=""  style="width:100%">
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">4 / 8</div>
-            <img src="4.jpg" alt="" style="width:100%">
-          </div> 
+            <img src="./images/4.jpg" alt=""  style="width:100%">
+        </div> 
 
-          <div class="mySlides fade">
+        <div class="mySlides fade">
             <div class="numbertext">5 / 8</div>
-            <img src="5.jpg" alt="" style="width:100%">
-          </div>
+            <img src="./images/5.jpg" alt=""  style="width:100%">
+        </div>
           
-          <div class="mySlides fade">
+        <div class="mySlides fade">
             <div class="numbertext">6 / 8</div>
-            <img src="6.jpg" alt="" style="width:100%">
-          </div>
+            <img src="./images/6.jpg" alt=""  style="width:100%">
+        </div>
 
-          <div class="mySlides fade">
+        <div class="mySlides fade">
             <div class="numbertext">7 / 8</div>
-            <img src="7.jpg" alt="" style="width:100%">
-          </div>
+            <img src="./images/7.jpg" alt=""  style="width:100%">
+        </div>
 
-          <div class="mySlides fade">
+        <div class="mySlides fade">
             <div class="numbertext">8 / 8</div>
-            <img src="8.jpg" alt="" style="width:100%">
+            <img src="./images/8.jpg" alt=""  style="width:100%">
+        </div>
+
+           <!-- Hero text overlay -->
+        <div class="hero-text">
+            <h1>Ride Denver – Your Trusted Transportation Partner</h1>
+            <h2>Safe. Reliable. Comfortable. Always On Time.</h2>
+            <p>Whether you need a quick airport transfer, a guided city tour, or a reliable ride to your next event — Ride Denver delivers personalized, professional transportation across Denver, Colorado.</p>
+            <div class="service-points">
+                <span>✅ Airport Rides</span>
+                <span>✅ City Tours</span>
+                <span>✅ Events & Appointments</span>
+                <span>✅ Shopping Trips</span>
+            </div>
+            <p class="call-prompt">PLEASE CALL OR TEXT US FOR FAST RESPONSE!</p>
+            <div class="hero-buttons">
+                <a href="tel:+1 (303) 345-7755" class="hero-button call">
+                    <i class="fa fa-phone"></i> Call Us: +1 (303) 345-7755
+                </a>
+                <a href="sms:+1 (303) 345-7755" class="hero-button text">
+                    <i class="fa fa-comment"></i> Text Us: +1 (303) 345-7755
+                </a>
+            </div>
+        </div>
+
+        <!-- Dots moved inside the slideshow container -->
+        <div class="dot-container">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>  
+        </div>
+    </div>
+
+
+<div class="hero-container" id="services">
+  <h1 class="animated-heading">Our Services</h1>
+  <div class="services">
+    <div class="service">
+      <h3 class="service-title transportation"><b>Transportation Services</b></h3>
+      <p>All travel needs, including:</p> <br>
+      <div class="service-list">
+        <p class="service-item"><b>Quick Transfers:</b> To and from Denver International Airport.</p>
+        <p class="service-item"><b>Seamless Transportation:</b> Between hotels and city destinations.</p>
+        <p class="service-item"><b>Direct Services:</b> Reliable for medical appointments and more.</p>
+      </div>
+    </div>
+    <div class="service">
+      <h3 class="service-title sightseeing"><b>Sightseeing and Tours</b></h3>
+      <p>Explore Denver's landmarks and attractions:</p> <br>
+      <div class="service-list">
+        <p class="service-item"><b>Informative City Tours:</b> Learn about iconic landmarks and vibrant neighborhoods.</p>
+        <p class="service-item"><b>Adventurous Sightseeing:</b> Experience breathtaking natural wonders.</p>
+        <p class="service-item"><b>Guided Experiences:</b> Unforgettable adventures for every traveler.</p>
+      </div>
+    </div>
+    <div class="service">
+      <h3 class="service-title events"><b>Event Transportation</b></h3>
+      <p>Reliable transportation for:</p> <br>
+      <div class="service-list">
+        <p class="service-item"><b>Business Trips:</b> Attend conferences and meetings hassle-free.</p>
+        <p class="service-item"><b>Limo Services:</b> Our services cater to groups of up to seven people for weddings, concerts, parties, and various events.</p>
+        <p class="service-item"><b>Professional services:</b> Prompt and reliable service.</p>
+      </div>
+    </div>
+    <div class="service">
+      <h3 class="service-title convenience"><b>Convenience Services</b></h3>
+      <p>Assisted shopping trips for a stress-free experience:</p> <br>
+      <div class="service-list">
+        <p class="service-item"><b>Retail Therapy:</b> Enjoyable transportation to favorite shopping destinations.</p>
+        <p class="service-item"><b>Special Requests:</b> We cater to any unique transportation needs you have, ensuring convenience and comfort.</p>
+        <p class="service-item"><b>Smooth Experience:</b> Relax and let our drivers handle the logistics.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<div class="about-container" id="about">
+    <div class="about-header">
+     <h1 class="animated-heading">About Ride Denver</h1>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-mission">
+        <p>At Ride Denver, we believe transportation should be more than just getting from point A to point B — it should be safe, smooth, and tailored to your needs. Proudly serving Denver and the surrounding areas, our mission is to provide reliable and comfortable rides for every occasion.</p>
+        
+        <p>Whether you're headed to the airport, exploring the city, attending a special event, or need transportation for a medical appointment or shopping trip, we've got you covered.</p>
+         <div class="owner-section">
+        <h2 class="owner-title">Meet the Owner and Operator</h2>
+        <div class="owner-content">
+          <div>
+            <img src="Owner.jpg" alt="Owner" class="owner-image">
           </div>
-
+          <div class="owner-description">
+            <p>Ride Denver is owned and operated by <b>Bashkim Balaj </b>, a dedicated professional committed to excellent customer service and dependable transportation.</p>
+                  <div class="contact-buttons">
+          <button class="contact-button" onclick="window.location.href='mailto:balaj8518@gmail.com'">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <span class="contact-label">Email</span>
+          </button>
+          
+          <button class="contact-button" onclick="window.location.href='tel:+1 (720) 833-1138'">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <span class="contact-label">Phone</span>
+          </button>
+          
+          <button class="contact-button" onclick="window.location.href='tel:+1 (303) 345-7755'">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <span class="contact-label">Book a Ride</span>
+          </button>
+           <p class="footer-note"><small>We look forward to making your next ride comfortable, convenient, and stress-free. </small></p>
         </div>
-
-        <br>
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span>  
+          </div>
         </div>
-
-        <div class="container" style="text-align:center">
-          <section id="services">
-              <h2 class="animated-heading">Our Services</h2>
-              <div class="services" style="display: flex; justify-content: center;">
-                  <div class="service" style="text-align: left; width: 300px;">
-                      <h3 style="color: #009688;"><b>Transportation Services</b></h3>
-                      <p>All travel needs, including:</p>
-                      <ul style="list-style-type: none; padding-left: 0;">
-                          <li style="color: #333;"><b> Quick Transfers:</b> To and from Denver International Airport.</li>
-                          <li style="color: #333;"><b> Seamless Transportation:</b> Between hotels and city destinations.</li>
-                          <li style="color: #333;"><b> Direct Services:</b> Reliable for medical appointments and more.</li>
-                      </ul>
-                  </div>
-                  <div class="service" style="text-align: left; width: 300px;">
-                      <h3 style="color: #2196F3;"><b>Sightseeing and Tours</b></h3>
-                      <p>Explore Denver's landmarks and attractions:</p>
-                      <ul style="list-style-type: none; padding-left: 0;">
-                          <li style="color: #333;"><b> Informative City Tours:</b> Learn about iconic landmarks and vibrant neighborhoods.</li>
-                          <li style="color: #333;"><b> Adventurous Sightseeing:</b> Experience breathtaking natural wonders.</li>
-                          <li style="color: #333;"><b> Guided Experiences:</b> Unforgettable adventures for every traveler.</li>
-                      </ul>
-                  </div>
-                  <div class="service" style="text-align: left; width: 300px;">
-                      <h3 style="color: #FF9800;"><b>Event Transportation</b></h3>
-                      <p>Reliable transportation for:</p>
-                      <ul style="list-style-type: none; padding-left: 0;">
-                          <li style="color: #333;"><b> Business Trips:</b> Attend conferences and meetings hassle-free.</li>
-                          <li style="color: #333;"><b> Limo Services:</b> Our services cater to groups of up to seven people for weddings, concerts, parties, and various events.</li>
-                          <li style="color: #333;"><b> Professional services:</b> Prompt and reliable service.</li>
-                      </ul>
-                  </div>
-                  <div class="service" style="text-align: left; width: 300px;">
-                      <h3 style="color: #673AB7;"><b>Convenience Services</b></h3>
-                      <p>Assisted shopping trips for a stress-free experience:</p>
-                      <ul style="list-style-type: none; padding-left: 0;">
-                          <li style="color: #333;"><b> Retail Therapy:</b> Enjoyable transportation to favorite shopping destinations.</li>
-                           <li style="color: #333;"><b> Special Requests:</b> We cater to any unique transportation needs you have, ensuring convenience and comfort</li>
-                          <li style="color: #333;"><b> Smooth Experience:</b> Relax and let our drivers handle the logistics.</li>
-                      </ul>
-                  </div>
-              </div>
-          </section>
+      </div>
+</div>
+      
+  <div class="contact-heading" id="contact">
+     <h1 class="animated-heading">Contact</h1>
+  </div>
+  <div class="contact-container">
+    <div class="form-container">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" placeholder="John">
+        </div>
+        
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" placeholder="Doe">
+        </div>
       </div>
       
-      
-      
-      
-      
-
-            <section id="contact" class="contact-section">
-              <h2 class="animated-heading">Contact Us</h2>
-              <div class="owner-container">
-                  <div class="owner-image">
-                      <img src="Owner.jpg" alt="Owner" class="photo">
-                  </div>
-                  <p class="owner-role"><u>Owner and Operator</u></p>
-                  <div class="owner-info">
-                      <p><strong>Name:</strong> Bashkim Balaj</p>
-                      <p><strong>Email:</strong> balaj8518@gmail.com</p>
-                      <p><strong>Phone:</strong> +1 (720) 833-1138, +1 (303) 345-7755</p>
-                      <p><strong>License number:</strong> LLC 03134</p>
-                  </div>
-              </div>
-              <p>Contact us for any queries or feedback.</p> 
-          </section>
-          
-          
-          
-          
-        <div>
-            <section id="about">
-                <h2 class="animated-heading">About Us</h2>
-                <p>Ride Denver LLC is committed to providing excellent transportation services to our customers. We prioritize safety, comfort, and reliability in every ride. Our experienced team ensures that you reach your destination safely and on time.</p>
-                <p>Whether you need a ride to the airport, a corporate event, or simply want to explore the city, Ride Denver LLC has you covered. We offer a fleet of well-maintained vehicles to suit your preferences.</p>
-                <p>Experience the convenience and luxury of Ride Denver LLC for all your transportation needs in Denver.</p>
-            
-                <p><u> <strong>Location:</strong> Denver, Colorado, USA </u></p>
-            </section>
-
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Ex: johndoe@email.com">
         </div>
+        
+        <div class="form-group">
+          <label for="mobile">Mobile</label>
+          <input type="tel" id="mobile" placeholder="+999 123 4567">
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message here..."></textarea>
+      </div>
+      
+        <button class="send-button" type="button" id="sendButton">Send</button>
+    </div>
+    
+    <div class="contact-info">
+      <h3>Contact Info</h3>
+      
+      <div class="info-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+          </svg>
+        </div>
+        <div class="info-content">
+          Denver, Colorado, USA
+        </div>
+      </div>
+      
+      <div class="info-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg>
+        </div>
+        <div class="info-content">
+          balaj8518@gmail.com
+        </div>
+      </div>
+      
+      <div class="info-item">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+        </div>
+        <div class="info-content">
+          +1 (720) 833-1138 / +1 (303) 345-7755
+        </div>
+      </div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234362.14478109367!2d-105.01955935184013!3d39.764391835106515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C%20CO%2C%20USA!5e1!3m2!1sen!2snp!4v1747768419307!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="map-controls">
+        </div>
+      </div>
+    </div>
+  </div>
+          
+  
 
     <footer>
-        <p>&copy; 2024 RIDE DENVER LLC. All rights reserved.</p>
-    </footer>
-
+        <p>&copy; 2025 RIDE DENVER. All rights reserved.</p>
+    </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-    
 </body>
 </html>
