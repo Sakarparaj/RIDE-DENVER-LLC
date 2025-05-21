@@ -129,7 +129,6 @@ nav ul .call-button {
     position: relative;
     margin: 80px auto 0; /* Add top margin equal to navbar height */
     overflow: hidden;
-    size-adjust: 100%;
 }
 
 .mySlides {
